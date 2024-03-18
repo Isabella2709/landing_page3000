@@ -1,0 +1,110 @@
+* {
+  margin: 0;
+  border: 0;
+  box-sizing: border-box;
+}
+
+#navbar {
+  background-color: #0cc0df;
+  height: 80px;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+header #navbar .prilink {
+  margin: 20px;
+  text-decoration: none;
+  color: #545454;
+  font-size: x-large;
+  font-family: "Pathway Gothic One", sans-serif;
+  font-weight: 400;
+}
+
+header #navbar .prilink:hover {
+  color: blue;
+}
+
+header #navbar .seglink {
+  text-decoration: none;
+  color: white;
+  font-family: "Poppins", sans-serif;
+  margin: 20px;
+  font-size: larger;
+}
+
+header #navbar .seglink:hover {
+  color: blue;
+}
+
+#sec1 {
+  background-color: #545454;
+  width: 100%;
+  height: 1600px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+@media (max-width: 780px) {
+  #sec1 {
+    background-color: #545454;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 2700px;
+  }
+}
+
+#sec1 .titi1 {
+  color: #0cc0df;
+  padding-top: 50px;
+  font-family: "Pathway Gothic One", sans-serif;
+  font-size: 3rem;
+  font-weight: 100;
+}
+
+#sec1 .video1 {
+  margin-top: 50px;
+  width: 65%;
+  height: 500px;
+  border-radius: 3px;
+}
+
+@media (max-width: 780px) {
+  #sec1 .video1 {
+    margin-top: 50px;
+    width: 80%;
+    height: 350px;
+    border-radius: 3px;
+  }
+}
+
+#sec1 .apresentacao {
+  margin-top: 3rem;
+  width: 65%;
+  color: white;
+  font-family: sans-serif;
+  font-weight: 300;
+  font-size: 20px;
+}
+
+#sec1 .bot1 {
+  margin-top: 4rem;
+  width: 30%;
+  height: 50px;
+  border-radius: 6px;
+  font-size: medium;
+  font-weight: 400;
+  color: #545454;
+  font-family: sans-serif;
+  background-color: #0cc0df;
+}
+
+#sec1 .bot1:hover {
+  transition: 0.5s;
+  background-color: rgb(18, 94, 236);
+  color: white;
+}
